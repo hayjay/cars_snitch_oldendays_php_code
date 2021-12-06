@@ -65,10 +65,14 @@ include 'config.php';
           if($result){
 
             while($obj = $result->fetch_object()) {
+              $image = "images/products/".$obj->product_img_name;
+              if(strpos($obj->product_img_name, "http") !== false){
+                $image = $obj->product_img_name;
+              }
 
               echo '<div class="large-4 columns">';
               echo '<p><h3>'.$obj->product_name.'</h3></p>';
-              echo '<img src="images/products/'.$obj->product_img_name.'"/>';
+              echo '<img style="border:30px" src="'.$image.'"/>';
               echo '<p><strong>Product Code</strong>: '.$obj->product_code.'</p>';
               echo '<p><strong>Description</strong>: '.$obj->product_desc.'</p>';
               echo '<p><strong>Units Available</strong>: '.$obj->qty.'</p>';
