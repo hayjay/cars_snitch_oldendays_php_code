@@ -13,7 +13,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register || BOLT Sports Shop</title>
+    <title>Register || Car2Go</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -22,7 +22,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php">BOLT Sports Shop</a></h1>
+          <h1><a href="index.php">Car2Go</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -63,7 +63,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">First Name</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Nayan" name="fname">
+              <input type="text" id="right-label" placeholder="ajayisikiru" name="fname">
             </div>
           </div>
           <div class="row">
@@ -71,7 +71,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">Last Name</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Seth" name="lname">
+              <input type="text" id="right-label" placeholder="lastname" name="lname">
             </div>
           </div>
           <div class="row">
@@ -79,7 +79,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">Address</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Infinite Loop" name="address">
+              <input type="text" id="right-label" placeholder="address" name="address">
             </div>
           </div>
           <div class="row">
@@ -87,7 +87,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">City</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="Mumbai" name="city">
+              <input type="text" id="right-label" placeholder="city name" name="city">
             </div>
           </div>
           <div class="row">
@@ -95,7 +95,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">Pin Code</label>
             </div>
             <div class="small-8 columns">
-              <input type="number" id="right-label" placeholder="400056" name="pin">
+              <input type="number" id="right-label" placeholder="your pincode" name="pin">
             </div>
           </div>
           <div class="row">
@@ -103,7 +103,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <label for="right-label" class="right inline">E-Mail</label>
             </div>
             <div class="small-8 columns">
-              <input type="email" id="right-label" placeholder="nayantronix@gmail.com" name="email">
+              <input type="email" id="right-label" placeholder="ajayidhikrullah@gmail.com" name="email">
             </div>
           </div>
           <div class="row">
@@ -132,7 +132,7 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
       <div class="small-12">
 
         <footer>
-           <p style="text-align:center; font-size:0.8em;">&copy; BOLT Sports Shop. All Rights Reserved.</p>
+           <p style="text-align:center; font-size:0.8em;">&copy; Car2Go ajayisikiru</p>
         </footer>
 
       </div>

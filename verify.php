@@ -5,8 +5,8 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
 
 include 'config.php';
 
-$username = $_POST["username"];
-$password = $_POST["pwd"];
+$username = $_POST['username'];
+$password = $_POST['pwd'];
 $flag = 'true';
 //$query = $mysqli->query("SELECT email, password from users");
 
@@ -42,3 +42,8 @@ function redirect() {
 
 
 ?>
+
+Notice: Undefined index: username in C:\xampp\htdocs\cars_snitch_oldendays_php_code\verify.php on line 8
+
+Notice: Undefined index: pwd in C:\xampp\htdocs\cars_snitch_oldendays_php_code\verify.php on line 9
+Invalid Login! Redirecting...

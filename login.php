@@ -15,7 +15,7 @@ if(isset($_SESSION["username"])){
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login || BOLT Sports Shop</title>
+    <title>Login || Car2Go</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -24,7 +24,7 @@ if(isset($_SESSION["username"])){
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php">BOLT Sports Shop</a></h1>
+          <h1><a href="index.php">Car2Go</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -62,10 +62,10 @@ if(isset($_SESSION["username"])){
 
           <div class="row">
             <div class="small-4 columns">
-              <label for="right-label" class="right inline">Email</label>
+              <label for="right-label" placeholder="email" class="right inline">Email</label>
             </div>
             <div class="small-8 columns">
-              <input type="email" id="right-label" placeholder="nayantronix@gmail.com" name="username">
+              <input type="email" id="right-label" placeholder="ajayidhikrullah.gmail.com" name="username">
             </div>
           </div>
           <div class="row">
@@ -73,7 +73,7 @@ if(isset($_SESSION["username"])){
               <label for="right-label" class="right inline">Password</label>
             </div>
             <div class="small-8 columns">
-              <input type="password" id="right-label" name="pwd">
+              <input type="password" id="right-label" placeholder="password" name="pwd">
             </div>
           </div>
 
@@ -95,7 +95,7 @@ if(isset($_SESSION["username"])){
       <div class="small-12">
 
         <footer>
-           <p style="text-align:center; font-size:0.8em;">&copy; BOLT Sports Shop. All Rights Reserved.</p>
+           <p style="text-align:center; font-size:0.8em;">&copy; Car2Go ajayisikiru</p>
         </footer>
 
       </div>

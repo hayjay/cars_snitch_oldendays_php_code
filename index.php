@@ -10,7 +10,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BOLT Sports Shop</title>
+    <title>Car2go</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -19,7 +19,7 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><a href="index.php">BOLT Sports Shop</a></h1>
+          <h1><a href="index.php">Car2go</a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
@@ -49,16 +49,19 @@ if(session_id() == '' || !isset($_SESSION)){session_start();}
 
 
 
+    <!-- <img data-interchange="[images/honda.jpg, (retina)]"> -->
 
-    <img data-interchange="[images/bolt-retina.jpg, (retina)], [images/bolt-landscape.jpg, (large)], [images/bolt-mobile.jpg, (mobile)], [images/bolt-landscape.jpg, (medium)]">
-    <noscript><img src="images/bolt-landscape.jpg"></noscript>
+    <img data-interchange="[images/honda.jpg, (retina)], [images/honda.jpg, (large)], [images/honda.jpg, (mobile)], [images/honda.jpg, (medium)]">
+    <noscript><img src="images/honda.jpg"></noscript>
+    <!-- <noscript><img src="images/bolt-landscape.jpg"></noscript> -->
+
 
 
     <div class="row" style="margin-top:10px;">
       <div class="small-12">
 
         <footer style="margin-top:10px;">
-           <p style="text-align:center; font-size:0.8em;">&copy; BOLT Sports Shop. All Rights Reserved.</p>
+           <p style="text-align:center; font-size:0.8em;">&copy; Car2Go ajayisikiru</p>
         </footer>
 
       </div>
