@@ -81,7 +81,7 @@ include 'config.php';
 
 
               if($obj->qty > 0){
-                echo '<p><a href="update-cart.php?action=add&id='.$obj->id.'"><input type="submit" value="Add To Cart" style="clear:both; background: #0078A0; border: none; color: #fff; font-size: 1em; padding: 10px;" /></a></p>';
+                echo '<p><a href="update-cart.php?action=add&id='.$obj->id.'"><input type="submit" value="Add To Cart" style="clear:both; background: #0078A0; border-radius: 2px; color: #fff; font-size: 1em; padding: 10px;" /></a></p>';
               }
               else {
                 echo 'Out Of Stock!';

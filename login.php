@@ -59,6 +59,8 @@ if(isset($_SESSION["username"])){
     <form method="POST" action="verify.php" style="margin-top:30px;">
       <div class="row">
         <div class="small-8">
+        <h4>LOGIN ON CAR2GO</h4>
+
 
           <div class="row">
             <div class="small-4 columns">
@@ -82,8 +84,8 @@ if(isset($_SESSION["username"])){
 
             </div>
             <div class="small-8 columns">
-              <input type="submit" id="right-label" value="Login" style="background: #0078A0; border: none; color: #fff; font-family: 'Helvetica Neue', sans-serif; font-size: 1em; padding: 10px;">
-              <input type="reset" id="right-label" value="Reset" style="background: #0078A0; border: none; color: #fff; font-family: 'Helvetica Neue', sans-serif; font-size: 1em; padding: 10px;">
+              <input type="submit" id="right-label" value="Login" style="background: #000000; border: none; color: #fff; font-family: 'Helvetica Neue', sans-serif; font-size: 1em; padding: 10px;">
+              <input type="reset" id="right-label" value="Reset" style="background: #000000; border: none; color: #fff; font-family: 'Helvetica Neue', sans-serif; font-size: 1em; padding: 10px;">
             </div>
           </div>
         </div>
