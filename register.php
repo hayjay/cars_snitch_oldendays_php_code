@@ -51,20 +51,18 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
     </nav>
 
 
-
-
-
     <form method="POST" action="insert.php" style="margin-top:30px;">
       <div class="row">
         
         <div class="small-8">
         <h4>REGISTER ON CAR2GO</h4>
           <div class="row">
-            <div class="small-4 columns">
+
+          <div class="small-4 columns">
               <label for="right-label" class="right inline">First Name</label>
             </div>
             <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="ajayisikiru" name="fname">
+              <input type="text" id="right-label" placeholder="ajayisikiru" name="fname" required>
             </div>
           </div>
           <div class="row">
@@ -75,33 +73,6 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
               <input type="text" id="right-label" placeholder="lastname" name="lname">
             </div>
           </div>
-
-          <!-- <div class="row">
-            <div class="small-4 columns">
-              <label for="right-label" class="right inline">Address</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="address" name="address">
-            </div>
-          </div> -->
-
-          <!-- <div class="row">
-            <div class="small-4 columns">
-              <label for="right-label" class="right inline">City</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="text" id="right-label" placeholder="city name" name="city">
-            </div>
-          </div> -->
-
-          <!-- <div class="row">
-            <div class="small-4 columns">
-              <label for="right-label" class="right inline">Pin Code</label>
-            </div>
-            <div class="small-8 columns">
-              <input type="number" id="right-label" placeholder="your pincode" name="pin">
-            </div>
-          </div> -->
 
           <div class="row">
             <div class="small-4 columns">
@@ -142,9 +113,6 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
 
       </div>
     </div>
-
-
-
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>

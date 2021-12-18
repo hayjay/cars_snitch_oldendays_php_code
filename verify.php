@@ -10,7 +10,7 @@ $password = $_POST['pwd'];
 $flag = 'true';
 //$query = $mysqli->query("SELECT email, password from users");
 
-$result = $mysqli->query('SELECT id,email,password,fname,type from users order by id asc');
+$result = $mysqli->query('SELECT id, email, password, fname, type from users order by id asc');
 
 if($result === FALSE){
   die(mysql_error());
@@ -43,7 +43,7 @@ function redirect() {
 
 ?>
 
-Notice: Undefined index: username in C:\xampp\htdocs\cars_snitch_oldendays_php_code\verify.php on line 8
+<!-- Notice: Undefined index: username in C:\xampp\htdocs\cars_snitch_oldendays_php_code\verify.php on line 8
 
 Notice: Undefined index: pwd in C:\xampp\htdocs\cars_snitch_oldendays_php_code\verify.php on line 9
-Invalid Login! Redirecting...
+Invalid Login! Redirecting... -->
